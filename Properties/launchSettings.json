@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SpaceBot": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
