@@ -8,7 +8,7 @@ namespace SpaceBot
 {
     internal class Constants
     {
-        public static string BotID = "7560996597:AAE518iWQA-9gyfX3GJJGLhrbgbxo0oL3Uk";
+        public static string BotID = Environment.GetEnvironmentVariable("BOT_TOKEN");
         public static string ApiAdress = "https://spaceapi-spaceapi.up.railway.app";
         public static string ApiHost = "/api/SpacePhoto";
     }
